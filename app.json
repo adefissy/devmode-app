@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "fastamoni",
+    "slug": "devmode-fastamoni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/splash.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0088CC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/splash.png",
+        "backgroundColor": "#0088CC"
+      },
+      "package": "com.adefissy.devmodefastamoni"
+    },
+    "web": {
+      "favicon": "./app/assets/images/applogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8601686-597f-4bd4-b406-91cc5e1dec7c"
+      }
+    },
+    "owner": "adefissy"
+  }
+}
